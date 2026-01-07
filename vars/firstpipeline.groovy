@@ -8,7 +8,7 @@ pipeline {
         label 'slave1'
     }
     environment {
-        APPLICATION_NAME = ${pipelineParams.appName}
+        APPLICATION_NAME = "${pipelineParams.appName}"
     }
     stages {
         stage ('Addition') {
