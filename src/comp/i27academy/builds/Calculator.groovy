@@ -1,6 +1,6 @@
 package com.i27academy.build
 
-clas Calculator {
+class Calculator {
     def jenkins
 
     //constructor
