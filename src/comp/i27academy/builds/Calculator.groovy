@@ -1,4 +1,4 @@
-package com.i27academy.build
+package com.i27academy.builds
 
 class Calculator {
     def jenkins
