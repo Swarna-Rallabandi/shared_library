@@ -27,7 +27,7 @@ pipeline {
             }
         }
         
-        }
+        
         stage ('Test'){
             steps {
                 echo "testing the ${env.APPLICATION_NAME} application"
@@ -41,4 +41,5 @@ pipeline {
     }
 }
 
+}
 }
