@@ -27,6 +27,12 @@ pipeline {
             }
         }
         
+        stage ('sonar') {
+              steps{
+                echo "sonar scans the ${env.APPLICATION_NAME} applicationa"
+            }
+        }
+        
         
         stage ('Test'){
             steps {
